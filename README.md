@@ -1,4 +1,5 @@
-when you want to open backend,running in container, you should go to http://localhost:8080/api/api/blogs (I didn't find solution to fix it)
+This is repo with docker files for blog app.
+Backend and Fronted parts of blog app are under their own names separately.
 ## docker-compose -f docker-compose.dev.yml up
 ## docker-compose up
 I couldn't solve the problem when running app in production mode with command docker-compose up:
